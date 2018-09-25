@@ -1,0 +1,63 @@
+dist*
+static/tmp/
+static/combined/
+config/client_session_key.aes
+*.hi
+*.o
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+.hsenv*
+cabal-dev/
+.stack-work/
+.stack-work-devel/
+yesod-devel/
+.cabal-sandbox
+cabal.sandbox.config
+.DS_Store
+*.swp
+*.keter
+*~
+\#*
+nix-yesod-postgres.cabal
+
+.ghc.environment.*
+tmp
+# vim
+*.swp
+
+# nix-build
+result
+
+# docker build
+/docker-image.tar.gz
+
+# generated config files
+*.cabal
+/default.nix
+
+# Created by https://www.gitignore.io/api/haskell
+
+### Haskell ###
+dist
+dist-*
+cabal-dev
+*.o
+*.hi
+*.chi
+*.chs.h
+*.dyn_o
+*.dyn_hi
+.hpc
+.hsenv
+.cabal-sandbox/
+cabal.sandbox.config
+*.prof
+*.aux
+*.hp
+*.eventlog
+.stack-work/
+cabal.project.local
+.HTF/
+
+# End of https://www.gitignore.io/api/haskell
